@@ -146,28 +146,29 @@ img {
 {
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 800px)
 {
   .nav__menu
   {
-    position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
-    background-color: #606060;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 30px;
+    background-color: transparent !important;
     transition: 1s;
     color: #FC0FC0;
   }
 
   .nav__item
   {
-    margin-bottom: var(--mb-4);
+    margin-bottom: var(--mb-1);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .nav__link
@@ -197,6 +198,19 @@ img {
   {
     font-size: 1.5rem;
     cursor: pointer;
+  }
+
+  .nav__list
+  {
+    /* display the nav_list on smaller screens nicely */
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 0%;
+    padding-right: 10%;
+    margin-bottom: var(--mb-2);
+    background-color: transparent !important;
+    
   }
 }
 
