@@ -169,6 +169,7 @@ img {
     margin-bottom: var(--mb-1);
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 12px;
   }
 
   .nav__link
