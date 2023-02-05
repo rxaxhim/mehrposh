@@ -24,4 +24,4 @@ Fashion store HTML Template is a clean and single page design – suitable for s
 .
 .
 
-[![Raahim - Mehrposh site template live demo](www.mehrposh.ca)
+[![Nihory - Portfolio site template live demo](www.mehrposh.ca)
